@@ -1,0 +1,28 @@
+{
+  "name": "heroku-deploy-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericagirges/heroku-deploy-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericagirges/heroku-deploy-project/issues"
+  },
+  "homepage": "https://github.com/ericagirges/heroku-deploy-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
